@@ -1,0 +1,45 @@
+{
+  "name": "play_full_stack",
+  "version": "1.0.0",
+  "description": "song playlist creator app",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "jquery": "^3.3.1",
+    "mocha-loader": "^2.0.0",
+    "node-libs-browser": "^2.1.0",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "build": "./node_modules/webpack/bin/webpack.js",
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Autumn-Martin/ski_meow.git"
+  },
+  "author": "Abdulla & Autumn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Autumn-Martin/ski_meow/issues"
+  },
+  "homepage": "https://github.com/Autumn-Martin/ski_meow#readme"
+}
