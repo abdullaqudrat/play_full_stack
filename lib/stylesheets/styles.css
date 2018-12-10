@@ -1,3 +1,6 @@
 body {
 color: blue
+padding: 7% 0%;
+overflow:scroll;
+background: url('../images/clem-onojeghuo-486844-unsplash.jpg') no-repeat center top/cover
 }
