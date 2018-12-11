@@ -15,7 +15,9 @@ background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../i
 
 nav {
   /* background: #5c2574; */
-  background: #2e123b;
+  /* background: #2e123b; */
+  background: #801210;
+  /* background: #46030e; */
   /* background: #1f0c27; */
   text-decoration: underline wavy #672FE9;
   padding: 3%;
@@ -40,7 +42,14 @@ form {
 .logo {
   font-size: 30px;
   font-family: 'Kaushan Script';
-  color: #6BFBCE;
+  /* color: #FA8B3C; */
+  color: #fdcc9b;
+  /* color: #fdd0b4; */
+  text-shadow: 3px 3px rgba(252, 78, 3, 0.7);
+  /* text-shadow: 2px 2px #fc4e03; */
+  /* color: #fba650; */
+  /* color: #8e6fe4; */
+  /* color: #8e6fe4; */
   /* color: #FB9250; */
   text-align: left;
   padding: 5%;
