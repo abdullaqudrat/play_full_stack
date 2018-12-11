@@ -70,7 +70,7 @@ form {
   display: inline;
   float: right;
   grid-area: 'searchbar';
-  height: 20px;
+  padding: 3%;
 }
 
 #search-field {
@@ -81,6 +81,7 @@ form {
   border: 1px solid white;
   padding: 5px;
   text-align: left;
+  border-radius: 10px;
 }
 
 #search-field:hover {
