@@ -9,16 +9,20 @@ body {
 text-align: center;
 font-family: 'Amaranth';
 overflow:scroll;
-background: url('../images/clem-onojeghuo-486844-unsplash.jpg') no-repeat center top/cover
+-webkit-filter:brightness(80%);
+background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/clem-onojeghuo-486844-unsplash.jpg') no-repeat center top/cover
 }
 
 nav {
-  background: #1f0c27;
+  /* background: #5c2574; */
+  background: #2e123b;
+  /* background: #1f0c27; */
   text-decoration: underline wavy #672FE9;
   padding: 3%;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-areas: 'logo searchbar';
+  border-bottom: 1px solid #6c2a89;
 }
 
 button {
@@ -28,6 +32,7 @@ button {
 form {
   border-radius: 10px;
   border: 2px solid #FB9250;
+  /* border: 2px solid #7EEAC2; */
   background: white;
   vertical-align: center;
 }
@@ -35,7 +40,8 @@ form {
 .logo {
   font-size: 30px;
   font-family: 'Kaushan Script';
-  color: #FB9250;
+  color: #6BFBCE;
+  /* color: #FB9250; */
   text-align: left;
   padding: 5%;
   margin: 2% 2%;
@@ -43,16 +49,23 @@ form {
 }
 
 .fab.fa-searchengin {
-  color: #672FE9;
+  color: #FB9250;
+  /* color: #7EEAC2; */
+  /* color: #00BE9E; */
 }
 
 ::placeholder {
   color: #672FE9;
   opacity: 1;
 }
+.below-nav {
+  margin: 10%;
+  background: rgba(234, 324, 233, .5)
+}
 
 #searchBtn {
-  background: #ccbaf8;
+  /* background: #ccbaf8; */
+  background: #6c2a89;
   font-size: 28px;
   border-radius: 0 10px 10px 0;
   outline: #BFA8F6;
@@ -83,4 +96,20 @@ form {
   padding: 5px;
   text-align: left;
   border-radius: 10px;
+}
+
+#about-container {
+  margin-top: 75%;
+  font-size: 28px;
+  padding: 5%;
+  /* background: rgba(191, 168, 246, 0.7); */
+  background: rgba(238, 232, 253, 0.4);
+  /* color: #7EEAC2; */
+  /* color: #00BE9E; */
+  /* color: #e6fffb; */
+  /* color: #FB9250; */
+  /* color: #1c0411; */
+  color: #4d1e62;
+  border: 2px solid #FB9250;
+  /* border: 2px solid #00BE9E; */
 }
