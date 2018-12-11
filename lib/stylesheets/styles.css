@@ -19,7 +19,7 @@ nav {
   background: #801210;
   /* background: #46030e; */
   /* background: #1f0c27; */
-  text-decoration: underline wavy #672FE9;
+  /* text-decoration: underline wavy #672FE9; */
   padding: 3%;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -42,6 +42,7 @@ form {
 .logo {
   font-size: 30px;
   font-family: 'Kaushan Script';
+  text-decoration: underline wavy #fdcc9b;
   /* color: #FA8B3C; */
   color: #fdcc9b;
   /* color: #fdd0b4; */
@@ -64,7 +65,7 @@ form {
 }
 
 ::placeholder {
-  color: #672FE9;
+  color: #4C3A67;
   opacity: 1;
 }
 .below-nav {
@@ -74,7 +75,8 @@ form {
 
 #searchBtn {
   /* background: #ccbaf8; */
-  background: #6c2a89;
+  background: #4C3A67;
+  /* background: #6c2a89; */
   font-size: 28px;
   border-radius: 0 10px 10px 0;
   outline: #BFA8F6;
@@ -99,7 +101,7 @@ form {
   font-size: 22px;
   font-family: 'Amaranth';
   width: 70%;
-  color: #672FE9;
+  color: #4C3A67;
   outline: 0;
   border: 1px solid white;
   padding: 5px;
