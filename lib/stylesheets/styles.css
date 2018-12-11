@@ -75,6 +75,7 @@ form {
 
 #search-field {
   font-size: 22px;
+  font-family: 'Amaranth';
   width: 70%;
   color: #672FE9;
   outline: 0;
@@ -82,7 +83,4 @@ form {
   padding: 5px;
   text-align: left;
   border-radius: 10px;
-}
-
-#search-field:hover {
 }
