@@ -10,16 +10,13 @@ text-align: center;
 font-family: 'Amaranth';
 overflow:scroll;
 -webkit-filter:brightness(80%);
-background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/clem-onojeghuo-486844-unsplash.jpg') no-repeat center top/cover
+background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),
+            url('../images/clem-onojeghuo-486844-unsplash.jpg')
+            no-repeat center top/cover;
 }
 
 nav {
-  /* background: #5c2574; */
-  /* background: #2e123b; */
-  background: #801210;
-  /* background: #46030e; */
-  /* background: #1f0c27; */
-  /* text-decoration: underline wavy #672FE9; */
+  background-image: linear-gradient(to bottom right, #7F123A, #6A2959);
   padding: 3%;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -34,7 +31,6 @@ button {
 form {
   border-radius: 10px;
   border: 2px solid #FB9250;
-  /* border: 2px solid #7EEAC2; */
   background: white;
   vertical-align: center;
 }
@@ -43,15 +39,8 @@ form {
   font-size: 30px;
   font-family: 'Kaushan Script';
   text-decoration: underline wavy #fdcc9b;
-  /* color: #FA8B3C; */
   color: #fdcc9b;
-  /* color: #fdd0b4; */
-  text-shadow: 3px 3px rgba(252, 78, 3, 0.7);
-  /* text-shadow: 2px 2px #fc4e03; */
-  /* color: #fba650; */
-  /* color: #8e6fe4; */
-  /* color: #8e6fe4; */
-  /* color: #FB9250; */
+  text-shadow: 3px 3px rgba(253, 113, 53, 0.7);
   text-align: left;
   padding: 5%;
   margin: 2% 2%;
@@ -60,8 +49,6 @@ form {
 
 .fab.fa-searchengin {
   color: #fca169;
-  /* color: #7EEAC2; */
-  /* color: #00BE9E; */
 }
 
 ::placeholder {
@@ -74,9 +61,7 @@ form {
 }
 
 #searchBtn {
-  /* background: #ccbaf8; */
   background: #4C3A67;
-  /* background: #6c2a89; */
   font-size: 28px;
   border-radius: 0 10px 10px 0;
   outline: #BFA8F6;
@@ -113,15 +98,7 @@ form {
   margin-top: 75%;
   font-size: 28px;
   padding: 5%;
-  /* background: rgba(191, 168, 246, 0.7); */
   background: rgba(77, 30, 98, 0.6);
-  /* color: #7EEAC2; */
-  /* color: #00BE9E; */
-  /* color: #e6fffb; */
-  /* color: #FB9250; */
-  /* color: #1c0411; */
-  /* color: #4d1e62; */
   color: white;
   border: 2px solid #FB9250;
-  /* border: 2px solid #00BE9E; */
 }
