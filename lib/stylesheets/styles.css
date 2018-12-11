@@ -1,6 +1,21 @@
+/* colors:
+pearl aqua #7EEAC2
+caribbean green #OOBE9E
+coral #FB9250
+blue violet #672FE9
+pale violet #BFA8F6 */
+
 body {
-color: blue
-padding: 7% 0%;
+text-align: center;
+font-size: 30px;
+color: #FB9250;
 overflow:scroll;
 background: url('../images/clem-onojeghuo-486844-unsplash.jpg') no-repeat center top/cover
+}
+
+nav {
+  background: #1f0c27;
+  text-decoration: underline #672FE9;
+  border-bottom: 2px solid #672FE9;
+  padding: 2%;
 }
