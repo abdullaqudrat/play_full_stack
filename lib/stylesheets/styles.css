@@ -109,10 +109,11 @@ form {
 }
 
 #about-container {
-  margin-top: 73%;
-  font-size: 28px;
+  margin-top: 55%;
+  font-size: 22px;
   padding: 5%;
   background: rgba(77, 30, 98, 0.6);
   color: white;
-  border: 2px solid #FB9250;
+  border: 3px solid #FB9250;
+  line-height: 1.6;
 }
