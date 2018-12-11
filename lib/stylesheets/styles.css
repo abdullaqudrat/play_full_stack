@@ -6,12 +6,12 @@ blue violet #672FE9
 pale violet #BFA8F6 */
 
 body {
-text-align: center;
-font-family: 'Amaranth';
-overflow:scroll;
--webkit-filter:brightness(80%);
-background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),
-            url('../images/clem-onojeghuo-486844-unsplash.jpg')
+  text-align: center;
+  font-family: 'Amaranth';
+  overflow:scroll;
+  -webkit-filter:brightness(80%);
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),
+              url('../images/clem-onojeghuo-486844-unsplash.jpg')
             no-repeat center top/cover;
 }
 
@@ -63,12 +63,17 @@ form {
 .btn {
   color: #7EEAC2;
   border: 2px solid #00BE9E;
-  background: #4C3A67;
-  padding: 30px 15px;
+  background-image: radial-gradient(#6A2959, #4C3A67);
+  padding: 24px 15px;
   border-radius: 50%;
-  text-align: center;
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-bottom: 5%;
+  font-size: 24px;
 }
-
+/* i {
+  margin: 1%;
+} */
 
 #searchBtn {
   background: #4C3A67;
@@ -105,7 +110,7 @@ form {
 }
 
 #about-container {
-  margin-top: 75%;
+  margin-top: 73%;
   font-size: 28px;
   padding: 5%;
   background: rgba(77, 30, 98, 0.6);
