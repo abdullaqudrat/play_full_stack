@@ -84,6 +84,12 @@ form {
   bottom: 0;
   display: flex; width: 100%;
 }
+#favoritesBtn {
+
+}
+#playlistsBtn {
+
+}
 
 #searchBtn {
   background: #4C3A67;
