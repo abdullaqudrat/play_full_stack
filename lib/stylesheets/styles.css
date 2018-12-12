@@ -117,3 +117,7 @@ form {
   border: 3px solid #FB9250;
   line-height: 1.6;
 }
+
+.song-name {
+  color: white;
+}
