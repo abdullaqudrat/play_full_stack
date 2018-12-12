@@ -84,6 +84,7 @@ form {
   height: 37px;
   width: 50px
 }
+
 #searchBtn:hover {
   background: #BFA8F6;
   border-color: #672FE9;
@@ -115,6 +116,7 @@ form {
   background: rgba(77, 30, 98, 0.6);
   color: white;
   border: 3px solid #FB9250;
+  box-shadow: 2px 2px rgb(253, 95, 28);
   line-height: 1.6;
 }
 
@@ -123,8 +125,7 @@ form {
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 'name-col album-col'
 }
-#favoritesContainer {
-}
+
 
 .song-name {
   color: white;
@@ -141,34 +142,49 @@ form {
   display:none;
 }
 
+/* --------- FAVORITES PAGE ---------- */
+#favoritesTable {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 1fr;
+    background: rgba(77, 30, 98, 0.6);
+    color: white;
+    border: 3px solid #FB9250;
+    box-shadow: 2px 2px rgb(253, 95, 28);
+}
+#favoritesTable > div {
+  padding: 8px 4px;
+  border-left: 1px solid rgba(58, 3, 14, .5);
+  border-bottom: 2px solid rgba(58, 3, 14, .5);
+  /* #3a030e */
+}
+
 .fave-song {
-  color: blue;
+  grid-area: 'fave-song-col';
 }
 .fave-artist {
-  color: blue;
+  grid-area: 'fave-artist-col';
 }
 .fave-album {
-  color: blue;
+  grid-area: 'fave-album-col';
 }
-.add-to-playlist-icon {
-  padding: 0;
+
+.add-playlists-favorites {
+  grid-area: 'add-icon-col';
+
 }
+
 .add-btn {
   color: #7EEAC2;
   border: 2px solid rgba(0, 190, 158, .6);
   box-shadow: 1px 2px 1px 3px rgba(0, 190, 158, .5);
   background-image: radial-gradient(#7F123A, #4C3A67);
-  /* padding: 5px 5px; */
-  margin: 5%;
-  border-radius: 50%;
-  margin-left: 13%;
-  margin-right: 13%;
-  margin-bottom: 5%;
+  border-radius: 5%;
   font-size: 16px;
+  grid-area: 'add-icon-col';
 }
-table {
-  width: 100%;
-}
-tr {
-  height: 20px;
+.label {
+  color: #fdcc9b;
+  font-size: 22px;
+  padding: 2%;
+  margin-top: 2%;
 }
