@@ -128,7 +128,7 @@ form {
 
 /* --------- WELCOME PAGE ---------- */
 #welcomePage {
-  display:none;
+  display: block;
 }
 #about-container {
   margin-top: 55%;
@@ -155,7 +155,7 @@ form {
   grid-area: 'album-col';
 }
 #searchResultPage {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 'name-col album-col';
   display: none;
@@ -163,6 +163,8 @@ form {
 
 
 /* --------- FAVORITES PAGE ---------- */
+
+
 
 .fave-song {
   grid-area: 'fave-song-col';
@@ -194,6 +196,10 @@ form {
   padding: 2%;
   margin-top: 2%;
 }
+#favoritesPage {
+  display: none;
+}
+
 #favoritesTable {
     margin-top: 10%;
     display: grid;
