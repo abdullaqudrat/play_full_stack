@@ -190,7 +190,7 @@ form {
     border: 3px solid #FB9250;
     box-shadow: 2px 2px rgb(253, 95, 28);
 }
-#favoritesTable > div {
+#favoritesTable > p {
   padding: 8px 4px;
   border-left: 1px solid rgba(58, 3, 14, .5);
   border-bottom: 2px solid rgba(58, 3, 14, .5);
