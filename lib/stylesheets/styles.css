@@ -132,3 +132,9 @@ form {
   color: coral;
   grid-area: 'album-col';
 }
+#searchResultPage {
+  display: none;
+}
+#welcomePage {
+  display:none;
+}
