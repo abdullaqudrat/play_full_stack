@@ -9,16 +9,19 @@ body {
 text-align: center;
 font-family: 'Amaranth';
 overflow:scroll;
-background: url('../images/clem-onojeghuo-486844-unsplash.jpg') no-repeat center top/cover
+-webkit-filter:brightness(80%);
+background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),
+            url('../images/clem-onojeghuo-486844-unsplash.jpg')
+            no-repeat center top/cover;
 }
 
 nav {
-  background: #1f0c27;
-  text-decoration: underline wavy #672FE9;
+  background-image: linear-gradient(to bottom right, #7F123A, #6A2959);
   padding: 3%;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-areas: 'logo searchbar';
+  border-bottom: 1px solid #6c2a89;
 }
 
 button {
@@ -35,7 +38,9 @@ form {
 .logo {
   font-size: 30px;
   font-family: 'Kaushan Script';
-  color: #FB9250;
+  text-decoration: underline wavy #fdcc9b;
+  color: #fdcc9b;
+  text-shadow: 2px 2px rgb(253, 95, 28);
   text-align: left;
   padding: 5%;
   margin: 2% 2%;
@@ -43,16 +48,20 @@ form {
 }
 
 .fab.fa-searchengin {
-  color: #672FE9;
+  color: #fca169;
 }
 
 ::placeholder {
-  color: #672FE9;
+  color: #4C3A67;
   opacity: 1;
+}
+.below-nav {
+  margin: 10%;
+  background: rgba(234, 324, 233, .5)
 }
 
 #searchBtn {
-  background: #ccbaf8;
+  background: #4C3A67;
   font-size: 28px;
   border-radius: 0 10px 10px 0;
   outline: #BFA8F6;
@@ -77,10 +86,19 @@ form {
   font-size: 22px;
   font-family: 'Amaranth';
   width: 70%;
-  color: #672FE9;
+  color: #4C3A67;
   outline: 0;
   border: 1px solid white;
   padding: 5px;
   text-align: left;
   border-radius: 10px;
+}
+
+#about-container {
+  margin-top: 75%;
+  font-size: 28px;
+  padding: 5%;
+  background: rgba(77, 30, 98, 0.6);
+  color: white;
+  border: 2px solid #FB9250;
 }
