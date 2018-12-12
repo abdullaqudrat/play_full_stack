@@ -6,6 +6,7 @@ blue violet #672FE9
 pale violet #BFA8F6 */
 /* --------- ALL PAGES ---------- */
 body {
+  position: relative;
   text-align: center;
   font-family: 'Amaranth';
   overflow:scroll;
@@ -56,6 +57,10 @@ form {
   opacity: 1;
 }
 .below-nav {
+  height: 78vh;
+}
+
+.below-nav-content {
   margin: 10%;
   background: rgba(234, 324, 233, .5)
 }
@@ -65,20 +70,19 @@ form {
   border: 2px solid rgba(0, 190, 158, .6);
   box-shadow: 1px 2px 1px 3px rgba(0, 190, 158, .5);
   background-image: radial-gradient(#7F123A, #4C3A67);
-  padding: 25px 25px;
+  padding: 10px 10px;
   border-radius: 50%;
-  margin-left: 13%;
-  margin-right: 13%;
-  margin-bottom: 5%;
+  margin: 0% 10% 5% 10%;
   font-size: 16px;
   height: 100px;
-  width: 100px;
+  width: 110px;
 }
 
 
 #footer {
-  position: fixed !important;
-  bottom: 0 !important;
+  position: fixed;
+  bottom: 0;
+  display: flex; width: 100%;
 }
 
 #searchBtn {
@@ -129,6 +133,9 @@ form {
   border: 3px solid #FB9250;
   box-shadow: 2px 2px rgb(253, 95, 28);
   line-height: 1.6;
+}
+#about-container > p {
+  style='margin: 5%;'
 }
 
 /* --------- SEARCH RESULT PAGE ---------- */
