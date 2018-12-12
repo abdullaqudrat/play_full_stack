@@ -1,0 +1,86 @@
+/* colors
+pearl aqua #7EEAC2
+caribbean green #OOBE9E
+coral #FB9250
+blue violet #672FE9
+pale violet #BFA8F6 */
+
+body {
+text-align: center;
+font-family: 'Amaranth';
+overflow:scroll;
+background: url('../images/clem-onojeghuo-486844-unsplash.jpg') no-repeat center top/cover
+}
+
+nav {
+  background: #1f0c27;
+  text-decoration: underline wavy #672FE9;
+  padding: 3%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: 'logo searchbar';
+}
+
+button {
+  cursor: pointer;
+}
+
+form {
+  border-radius: 10px;
+  border: 2px solid #FB9250;
+  background: white;
+  vertical-align: center;
+}
+
+.logo {
+  font-size: 30px;
+  font-family: 'Kaushan Script';
+  color: #FB9250;
+  text-align: left;
+  padding: 5%;
+  margin: 2% 2%;
+  grid-area: 'logo',
+}
+
+.fab.fa-searchengin {
+  color: #672FE9;
+}
+
+::placeholder {
+  color: #672FE9;
+  opacity: 1;
+}
+
+#searchBtn {
+  background: #ccbaf8;
+  font-size: 28px;
+  border-radius: 0 10px 10px 0;
+  outline: #BFA8F6;
+  border: 2px solid #BFA8F6;
+  float: right;
+  height: 37px;
+  width: 50px
+}
+#searchBtn:hover {
+  background: #BFA8F6;
+  border-color: #672FE9;
+}
+
+#search-container {
+  display: inline;
+  float: right;
+  grid-area: 'searchbar';
+  padding: 3%;
+}
+
+#search-field {
+  font-size: 22px;
+  font-family: 'Amaranth';
+  width: 70%;
+  color: #672FE9;
+  outline: 0;
+  border: 1px solid white;
+  padding: 5px;
+  text-align: left;
+  border-radius: 10px;
+}
