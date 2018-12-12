@@ -9,7 +9,7 @@
     <link rel='stylesheet' type='text/css' href='./lib/stylesheets/reset.css' />
     <link rel='stylesheet' type='text/css' href='./lib/stylesheets/styles.css' />
   </head>
-  <body style='position: relative'>
+  <body>
     <nav>
       <a class='logo'>
         <i class='fas fa-headphones'></i>
@@ -22,14 +22,12 @@
         </form>
       </div>
     </nav>
-    <div style='height: 78vh'>
-
-
-      <div class='below-nav'>
+    <div class='below-nav'>
+      <div class='below-nav-content'>
 
         <div id='welcomePage'>
           <div id='about-container'>
-            <p style='margin: 5%;'>
+            <p>
               <span class='logo'><i class='fas fa-headphones'></i>Play</span> is
               a personal playlist builder for music lovers to create
               playlists from only the best songs: personal favorites.
@@ -41,6 +39,7 @@
           <p class='song-name'>Song:</p>
           <p class='album-title'>Title:</p>
         </div>
+
         <div id='favoritesPage'>
           <div id='favoritesTable'>
             <p class='label fave-song'>Song</p>
@@ -65,9 +64,14 @@
         </div>
       </div>
     </div>
-    <div style='display: flex; width: 100%' id='footer'>
-      <button class='btn'><i class='fas fa-star'></i><i class='fas fa-music'></i></button>
-      <button class='btn'><i class='fas fa-play'>&nbsp</i><i class='fas fa-list'></i></button>
+    <div id='footer'>
+      <button class='btn'>
+        <i class='fas fa-star'></i>
+        <i class='fas fa-music'></i>
+      </button>
+      <button class='btn'>
+        <i class='fas fa-play'>&nbsp</i>
+        <i class='fas fa-list'></i></button>
     </div>
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
   <script src='main.bundle.js'></script>
