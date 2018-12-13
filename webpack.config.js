@@ -8,7 +8,9 @@ module.exports = {
   },
   output: {
     path: __dirname,
+    publicPath: "https://abdullaqudrat.github.io/play_full_stack/",
     filename: "[name].bundle.js"
+    
   },
   mode: 'development',
   module: {
