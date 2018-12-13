@@ -117,3 +117,18 @@ form {
   border: 3px solid #FB9250;
   line-height: 1.6;
 }
+
+#searchResultPage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'name-col album-col'
+}
+
+.song-name {
+  color: white;
+  grid-area: 'name-col';
+}
+.album-title {
+  color: coral;
+  grid-area: 'album-col';
+}
