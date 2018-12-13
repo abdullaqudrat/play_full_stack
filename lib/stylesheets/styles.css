@@ -4,8 +4,9 @@ caribbean green #00BE9E
 coral #FB9250
 blue violet #672FE9
 pale violet #BFA8F6 */
-
+/* --------- ALL PAGES ---------- */
 body {
+  position: relative;
   text-align: center;
   font-family: 'Amaranth';
   overflow:scroll;
@@ -56,6 +57,10 @@ form {
   opacity: 1;
 }
 .below-nav {
+  height: 60vh;
+}
+
+.below-nav-content {
   margin: 10%;
   background: rgba(234, 324, 233, .5)
 }
@@ -65,14 +70,26 @@ form {
   border: 2px solid rgba(0, 190, 158, .6);
   box-shadow: 1px 2px 1px 3px rgba(0, 190, 158, .5);
   background-image: radial-gradient(#7F123A, #4C3A67);
-  padding: 24px 15px;
+  padding: 15px 15px;
   border-radius: 50%;
-  margin-left: 13%;
-  margin-right: 13%;
-  margin-bottom: 5%;
-  font-size: 24px;
+  margin: 0% 10% 5% 10%;
+  font-size: 20px;
+  height: 110px;
+  width: 120px;
 }
 
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  display: flex; width: 100%;
+}
+#favoritesBtn {
+  margin-right: 5%;
+}
+#playlistsBtn {
+  margin-left: 15%;
+}
 
 #searchBtn {
   background: #4C3A67;
@@ -84,6 +101,7 @@ form {
   height: 37px;
   width: 50px
 }
+
 #searchBtn:hover {
   background: #BFA8F6;
   border-color: #672FE9;
@@ -96,7 +114,7 @@ form {
   padding: 3%;
 }
 
-#search-field {
+#searchField {
   font-size: 22px;
   font-family: 'Amaranth';
   width: 70%;
@@ -108,6 +126,10 @@ form {
   border-radius: 10px;
 }
 
+/* --------- WELCOME PAGE ---------- */
+#welcomePage {
+  display: block;
+}
 #about-container {
   margin-top: 55%;
   font-size: 22px;
@@ -115,14 +137,14 @@ form {
   background: rgba(77, 30, 98, 0.6);
   color: white;
   border: 3px solid #FB9250;
+  box-shadow: 2px 2px rgb(253, 95, 28);
   line-height: 1.6;
 }
-
-#searchResultPage {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: 'name-col album-col'
+#about-container > p {
+  style='margin: 5%;'
 }
+
+/* --------- SEARCH RESULT PAGE ---------- */
 
 .song-name {
   color: white;
@@ -131,4 +153,65 @@ form {
 .album-title {
   color: coral;
   grid-area: 'album-col';
+}
+#searchResultPage {
+  /* display: grid; */
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'name-col album-col';
+  display: none;
+}
+
+
+/* --------- FAVORITES PAGE ---------- */
+
+.fave-song {
+  grid-area: 'fave-song-col';
+}
+.fave-artist {
+  grid-area: 'fave-artist-col';
+}
+.fave-album {
+  grid-area: 'fave-album-col';
+}
+
+.add-playlists-favorites {
+  grid-area: 'add-icon-col';
+
+}
+
+.add-btn {
+  color: #7EEAC2;
+  border: 2px solid rgba(0, 190, 158, .6);
+  box-shadow: 1px 2px 1px 3px rgba(0, 190, 158, .5);
+  background-image: radial-gradient(#7F123A, #4C3A67);
+  border-radius: 5%;
+  font-size: 20px;
+  grid-area: 'add-icon-col';
+}
+.label {
+  color: #fdcc9b;
+  font-size: 22px;
+  padding: 2%;
+  margin-top: 2%;
+}
+#favoritesPage {
+  display: none;
+}
+
+#favoritesTable {
+    height: 55vh;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 1fr;
+    background: rgba(77, 30, 98, 0.6);
+    color: white;
+    border: 3px solid #FB9250;
+    box-shadow: 2px 2px rgb(253, 95, 28);
+    overflow: scroll;
+}
+#favoritesTable > p {
+  padding: 8px 4px;
+  border-left: 1px solid rgba(58, 3, 14, .5);
+  border-bottom: 2px solid rgba(58, 3, 14, .5);
+  /* #3a030e */
 }

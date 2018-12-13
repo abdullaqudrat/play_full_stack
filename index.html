@@ -4,7 +4,7 @@
     <title>Play</title>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous' />
     <link href='https://fonts.googleapis.com/css?family=Amaranth|Damion|Kaushan+Script|Frijole' rel='stylesheet'>
     <link rel='stylesheet' type='text/css' href='./lib/stylesheets/reset.css' />
     <link rel='stylesheet' type='text/css' href='./lib/stylesheets/styles.css' />
@@ -17,27 +17,105 @@
       </a>
       <div id='search-container'>
         <form>
-          <input id='search-field' type='text' placeholder='Search...'>
+          <input id='searchField' type='text' placeholder='Search...' />
           <button id='searchBtn' type='submit'><i class='fab fa-searchengin'></i></button>
         </form>
       </div>
     </nav>
     <div class='below-nav'>
-      <div id='about-container'>
-        <p style='margin: 5%;'>
-          <span class='logo'><i class='fas fa-headphones'></i>Play</span> is
-          a personal playlist builder for music lovers to create
-          playlists from only the best songs: personal favorites.
-        </p>
-      </div>
-      <div id='searchResultPage' class='search-container'>
-        <div class='song-name'>Song:</div>
-        <div class='album-title'>Title:</div>
+      <div class='below-nav-content'>
+
+        <div id='welcomePage'>
+          <div id='about-container'>
+            <p>
+              <span class='logo'><i class='fas fa-headphones'></i>Play</span> is
+              a personal playlist builder for music lovers to create
+              playlists from only the best songs: personal favorites.
+            </p>
+          </div>
+        </div>
+
+        <div id='searchResultPage' class='search-container'>
+          <p class='song-name'>Song:</p>
+          <p class='album-title'>Title:</p>
+        </div>
+
+        <div id='favoritesPage'>
+          <div id='favoritesTable'>
+            <p class='label fave-song'>Song</p>
+            <p class='label fave-artist'>Artist</p>
+            <p class='label fave-album'>Album</p>
+            <p class'label add-playlists-favorites'>Add to Playlist</p>
+
+            <p class='fave-song'>Come Together</p>
+            <p class='fave-artist'>The Beatles</p>
+            <p class='fave-album'>Abbey Road</p>
+            <p class='add-btn'>
+              <i class='fas fa-plus'></i>
+            </p>
+
+            <p class='fave-song'>Paint It Black</p>
+            <p class='fave-artist'>The Rolling Stones</p>
+            <p class='fave-album'>Aftermath</p>
+            <p class='add-btn'>
+              <i class='fas fa-plus'></i>
+            </p>
+
+            <p class='fave-song'>Silver Lining</p>
+            <p class='fave-artist'>Mt Joy</p>
+            <p class='fave-album'>Mt. Joy</p>
+            <p class='add-btn'>
+              <i class='fas fa-plus'></i>
+            </p>
+
+
+            <p class='fave-song'>Sing About It</p>
+            <p class='fave-artist'>Wood Brothers</p>
+            <p class='fave-album'>The Muse</p>
+            <p class='add-btn'>
+              <i class='fas fa-plus'></i>
+            </p>
+
+            <p class='fave-song'>Don't Worry Be Happy</p>
+            <p class='fave-artist'>Bobby McFerrin</p>
+            <p class='fave-album'>Simple Pleasures</p>
+            <p class='add-btn'>
+              <i class='fas fa-plus'></i>
+            </p>
+
+            <p class='fave-song'>Sparks</p>
+            <p class='fave-artist'>Coldplay</p>
+            <p class='fave-album'>Parachutes</p>
+            <p class='add-btn'>
+              <i class='fas fa-plus'></i>
+            </p>
+
+            <p class='fave-song'>Black Velvet</p>
+            <p class='fave-artist'>Alannah Myles</p>
+            <p class='fave-album'>Alannah Myles</p>
+            <p class='add-btn'>
+              <i class='fas fa-plus'></i>
+            </p>
+
+            <p class='fave-song'>Thriller</p>
+            <p class='fave-artist'>Michael Jackson</p>
+            <p class='fave-album'>Thriller</p>
+            <p class='add-btn'>
+              <i class='fas fa-plus'></i>
+            </p>
+
+          </div>
+        </div>
       </div>
     </div>
-    <div class='footer'>
-      <button class='btn'><i class='fas fa-star'></i><i class='fas fa-music'></i></button>
-      <button class='btn'><i class='fas fa-play'>&nbsp</i><i class='fas fa-list'></i></button>
+    <div id='footer'>
+      <button id='favoritesBtn' class='btn'>
+        <i class='fas fa-star'>&nbsp</i>
+        <i class='fas fa-music'></i>
+      </button>
+      <button id='playlistsBtn' class='btn'>
+        <i class='fas fa-play'>&nbsp</i>
+        <i class='fas fa-list'></i></button>
     </div>
   </body>
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
