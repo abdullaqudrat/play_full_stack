@@ -15,11 +15,17 @@ Play is a single page JavaScript application designed for mobile displays. You a
 ## Features
 Users are greeted by welcome view, which includes a search bar, app description, and site navigation buttons.
 
+![](https://user-images.githubusercontent.com/36902512/49945376-fa799400-fea9-11e8-9f22-6bd5cdf4bcf2.png)
+
 Users can search for songs they like & select them as favorites.
 
 Users can view a favorites index page.
 
+![](https://user-images.githubusercontent.com/36902512/49945353-ec2b7800-fea9-11e8-8b42-516705d2346f.png)
+
 Users can view a playlists index that includes the songs on each playlists.
+
+![](https://user-images.githubusercontent.com/36902512/49945617-8986ac00-feaa-11e8-963b-09dec66ec49e.png)
 
 ### Production
 This app has been deployed to GitHub Pages, and can be viewed in production  [here](https://github.com/abdullaqudrat/play_full_stack/).
