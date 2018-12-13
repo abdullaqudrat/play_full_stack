@@ -154,7 +154,7 @@ form {
   height: 55vh;
   margin-top: 10%;
   display: grid;
-  grid-template-columns: 3fr 3fr 1fr;
+  grid-template-columns: 3fr 3fr 3fr 1fr;
   background: rgba(77, 30, 98, 0.6);
   color: white;
   border: 3px solid #FB9250;
@@ -168,19 +168,29 @@ border-bottom: 2px solid rgba(58, 3, 14, .5);
 /* #3a030e */
 }
 
+.add-favorite-btn {
+  color: #7EEAC2;
+  border: 2px solid rgba(0, 190, 158, .6);
+  box-shadow: 1px 2px 1px 3px rgba(0, 190, 158, .5);
+  background-image: radial-gradient(#7F123A, #4C3A67);
+  border-radius: 5%;
+  font-size: 20px;
+  grid-area: 'search-add-icon-col';
+}
+
 .search-song {
   grid-area: 'search-song-col';
 }
-.search-artist {
+.fave-artist {
   grid-area: 'search-artist-col';
 }
 .search-album {
   grid-area: 'search-album-col';
 }
 
-.add-to-favorites {
-  grid-area: 'add-icon-col';
-
+p.label.add-to-favorites {
+  grid-area: 'search-add-icon-col';
+  font-size: 15px;
 }
 
 /* --------- FAVORITES PAGE ---------- */
