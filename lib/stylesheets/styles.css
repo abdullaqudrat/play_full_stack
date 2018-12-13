@@ -78,6 +78,15 @@ form {
   width: 120px;
 }
 
+#notice {
+  font-size: 24px;
+  color: white;
+  background-color: rgba(0, 190, 158, .6);
+  z-index: 2;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
 
 #footer {
   position: fixed;
