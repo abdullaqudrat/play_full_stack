@@ -227,14 +227,27 @@ form {
   height: 30px;
 }
 
-h3 {
+.playlist-label-container {
   background-image: linear-gradient(to bottom right, rgba(127, 18, 58, .9), rgba(106, 41, 89, .9));
-  /* background-image: linear-gradient(to bottom right, #7F123A, #6A2959); */
   box-shadow: 2px 2px #5c244d;
   font-size: 26px;
-  padding: 3%;
+  padding: 4%;
   color: #FB9250;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 }
+
+.playlist-label {
+  display: inline;
+}
+
+.playlistDeleteBtn {
+  display: inline;
+  text-align: right;
+  cursor: pointer;
+  text-shadow: red;
+}
+
 #playlistsPage {
   display: none;
 }
